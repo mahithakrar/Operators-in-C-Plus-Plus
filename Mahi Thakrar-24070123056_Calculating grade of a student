@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sub1,sub2,sub3,sub4,sub5;
+    float avg;
+    cout<<"Enter the marks for subject 1:"<<endl;
+    cin>>sub1;
+    cout<<"Enter the marks for subject 2:"<<endl;
+    cin>>sub2;
+    cout<<"Enter the marks for subject 3:"<<endl;
+    cin>>sub3;
+    cout<<"Enter the marks for subject 4:"<<endl;
+    cin>>sub4;
+    cout<<"Enter the marks for subject 5:"<<endl;
+    cin>>sub5;
+    
+    avg=(sub1+sub2+sub3+sub4+sub5)/5;
+    
+    if(80<avg&&avg<90){
+        cout<<"Grade is O"<<endl;
+    }
+    
+    else if(70<avg&&avg<80){
+        cout<<"Grade is A+"<<endl;
+    }
+    
+    else if(60<avg&&avg<70){
+        cout<<"Grade is A"<<endl;
+    }
+    
+    else if(50<avg&&avg<60){
+        cout<<"Grade is B"<<endl;
+    }
+    
+    else if(40<avg&&avg<50){
+        cout<<"Grade is C"<<endl;
+    }
+    
+    else{
+        cout<<"The student has failed in the exam"<<endl;
+    }
+    return 0;
+}
+
+
+//Enter the marks for subject 1:
+//90
+//Enter the marks for subject 2:
+//85
+//Enter the marks for subject 3:
+//60
+//Enter the marks for subject 4:
+//74
+//Enter the marks for subject 5:
+//66
+//Grade is A+
