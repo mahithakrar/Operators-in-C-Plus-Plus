@@ -1,0 +1,83 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,y;
+    cout<<"Enter the first co-ordinate:"<<endl;
+    cin>>x;
+    cout<<"Enter the second co-ordinate:"<<endl;
+    cin>>y;
+    
+    if(x>0&&y>0){
+        cout<<"The co-ordinates lie in the first quadrant"<<endl;
+    }
+    
+    else if(x<0&&y>0){
+        cout<<"The co-ordinates lie in the second quadrant"<<endl;
+    }
+    
+    else if(x<0&&y<0){
+        cout<<"The co-ordinates lie in the third quadrant"<<endl;
+    }
+    
+    else if(x>0&&y<0){
+        cout<<"The co-ordinates lie in the fourth quadrant"<<endl;
+    }
+    
+    else if(x!=0 && y==0){
+        cout<<"The co-ordinates lie in the x axis"<<endl;
+    } 
+    
+    else if(x==0 && y!=0){
+        cout<<"The co-ordinates lie in the y axis"<<endl;
+    }
+    
+    else{
+        cout<<"The co-ordinates lie on the origin"<<endl;
+    }
+    
+    return 0;
+}
+
+
+//Enter the first co-ordinate:
+//1
+//Enter the second co-ordinate:
+//1
+//The co-ordinates lie in the first quadrant
+
+// Enter the first co-ordinate:
+// -2
+// Enter the second co-ordinate:
+// 4
+// The co-ordinates lie in the second quadrant
+
+// Enter the first co-ordinate:
+// -5
+// Enter the second co-ordinate:
+// -7
+// The co-ordinates lie in the third quadrant
+
+// Enter the first co-ordinate:
+// 6
+// Enter the second co-ordinate:
+// -13
+// The co-ordinates lie in the fourth quadrant
+
+//Enter the first co-ordinate:
+//9
+//Enter the second co-ordinate:
+//0
+//The co-ordinates lie in the x axis
+
+//Enter the first co-ordinate:
+//0
+//Enter the second co-ordinate:
+//11
+//The co-ordinates lie in the y axis
+
+//Enter the first co-ordinate:
+//0
+//Enter the second co-ordinate:
+//0
+//The co-ordinates lie on the origin
