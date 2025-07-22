@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<"Enter a number:"<<endl;
+    cin>>a;
+    
+    if(a>0){
+        cout<<"The given number is positive "<<a<<endl;
+    }
+    
+    else if(a<0){
+        cout<<"The given number is negative "<<a<<endl;
+    }
+    
+    else{
+        cout<<"Number is zero "<<a<<endl;
+    }
+    
+    return 0;
+}
+
+
+
+//Enter a number:
+//28
+//The given number is positive 28
+
+// Enter a number:
+// -3
+// The given number is negative -3
+
+//Enter a number:
+//0
+//Number is zero 0
